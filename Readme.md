@@ -2,6 +2,8 @@
 
 A [Secret Santa](https://en.wikipedia.org/wiki/Secret_Santa) is a wonderful thing. To Help plan I created this small helper library to assign people to each other.
 
+You can download the library via [nuget](https://www.nuget.org/packages/Aniel.SecretSanta/).
+
 ## Usage
 Just pass an `IEnumerable<T>` to the `Aniel.SecretSanta.Assign` function and receive a `IEnumerable<(T Giver, T Receiver)>`.
 
