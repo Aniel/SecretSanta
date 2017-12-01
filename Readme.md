@@ -8,7 +8,13 @@ You can download the library via [nuget](https://www.nuget.org/packages/Aniel.Se
 Just pass an `IEnumerable<T>` to the `Aniel.SecretSanta.Assign` function and receive a `IEnumerable<(T Giver, T Receiver)>`.
 
 ```csharp
-var names = new string[] { "A", "B", "C", "D", "E", "F", "G" };
+var names = new string[] {
+	"Super Man",
+	"Wonder Woman",
+	"Iron Man",
+	"Thor",
+	"Captian America",
+	"Batman" };
 var result = Aniel.SecretSanta.Assign(names);
 foreach (var item in result)
 {
