@@ -10,7 +10,7 @@ var names = new string[] { "A", "B", "C", "D", "E", "F", "G" };
 var result = Aniel.SecretSanta.Assign(names);
 foreach (var item in result)
 {
-  Console.WriteLine(item);
+  Console.WriteLine($"{item.Giver} -> {item.Receiver}");
 }
 ```
 
